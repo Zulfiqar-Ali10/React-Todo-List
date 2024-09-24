@@ -33,7 +33,7 @@ function TodoApp(){
         <>
 
 
-        <input type="text" placeholder="Enter a Todo Date" value={addData} onChange={getInput}/>
+        <input type="text" placeholder="Enter a Todo Data" value={addData} onChange={getInput}/>
         <button onClick={todoBtn}>Add Todo</button>
         <ul>
             {showData.map((data, index) => {
